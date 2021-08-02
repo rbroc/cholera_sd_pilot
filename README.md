@@ -1,5 +1,8 @@
 ## Cholera Response Simulator resources
-This repo contains:
+This repository contains some materials relevant for the Cholera Response Simulator pilot recommended as a result of research conducted during the 2021 Predictive Analytics Data Fellowship.
+Recommendations are outlined in the **Pilot Recommendation** files. There is also some code and data from preliminary data exploration and analysis conducted during the fellowship. Very much work in progress, but hope this could be useful as a starting point :) 
+
+Contents:
 - ```Pilot Recommendations.ipynb```: report on recommendations for a Cholera Response Simulator pilot using System Dynamics;
 - ```datasets```: a few useful datasets, on which some viz + exploratory analysis work has been done over the course of the fellowship. This includes:
     - ```acaps_2021.xlsx```: ACAPS Crisis InSight dataset including both data on cholera incidence and a number of other indicators of the humanitarian situation in the country. Only includes 2019-2021;
