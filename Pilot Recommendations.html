@@ -13104,12 +13104,12 @@ div#notebook {
 <p>Cholera is an infection of the small intestine caused by ingestion of food or water contaminated with the bacterium Vibrio cholerae (<a href="https://www.who.int/news-room/fact-sheets/detail/cholera">https://www.who.int/news-room/fact-sheets/detail/cholera</a>). In some cases, cholera infections can cause severe symptoms such as acute watery diarrhea (AWD) and, if untreated, they can lead to death by dehydration over the course of just a few hours.</p>
 <p>Cholera is often defined as “a disease of inequity”, as it impacts communities which lack basic commodities such as access to safe drinking water, basic sanitation and health infrastructure (<a href="https://www.who.int/news-room/feature-stories/detail/prevention-for-a-cholera-free-world">https://www.who.int/news-room/feature-stories/detail/prevention-for-a-cholera-free-world</a>). Conflict is an additional risk factor. In contexts of acute armed conflict, access to clean water, health facilities, and sanitation infrastructure is jeopardized, and cholera monitoring, treatment, and prevention can become challenging.</p>
 <p>Cholera has been eliminated from the developed world decades ago, but it is still present in 47 countries. Each year, there are an estimated 1.3 to 4.0 million cholera cases worldwide (<a href="https://www.gtfcc.org/about-cholera/">https://www.gtfcc.org/about-cholera/</a>). Yemen, a country plagued by one of the world’s worst humanitarian crises, has been affected by some of the most violent cholera outbreaks. More than 2.5m cases and over 4000 deaths have been reported since October 2016 (<a href="https://reliefweb.int/report/yemen/cholera-situation-yemen-december-2020">https://reliefweb.int/report/yemen/cholera-situation-yemen-december-2020</a>).</p>
-<p><img src="figures/geo_plot_cases.png" style="width: 80%; height: 80%"></p>
-<p><em>Figure 1: Incidence of cholera in Yemen between 2019 and 2021 (data from ACAPS 2021 Crisis InSight dataset).</em></p>
+<p><img src="figures/geo_plot_cases.png" style="width: 80%; height: 80%;"></p>
+<p><center><em>Figure 1: Incidence of cholera in Yemen between 2019 and 2021 (data from ACAPS 2021 Crisis InSight dataset).</em><center></p>
 <p><img src="figures/cases.png" style="width: 80%; height: 80%"></p>
-<p><em>Figure 2a: Number of monthly cholera cases in Yemen between 2017 and 2020 (country-wide).</em></p>
+<p><center><em>Figure 2a: Number of monthly cholera cases in Yemen between 2017 and 2020 (country-wide).</em><center></p>
 <p><img src="figures/cases_top4gvt.png" style="width: 80%; height: 80%"></p>
-<p><em>Figure 2b: Number of monthly cholera cases in four high-incidence governorates.</em></p>
+<p><center><em>Figure 2b: Number of monthly cholera cases in four high-incidence governorates.</em><center></p>
 <p>Given the scale of the crisis, tackling cholera is a key humanitarian priority. Humanitarian organizations, health organizations, research institutes, and donors have partnered in the creation of the Global Task Force on Cholera Control (GTFCC), whose objective is to reduce cholera cases by 90 percent and eliminate cholera in up to 20 countries by 2030 (Roadmap 2030, <a href="https://www.gtfcc.org/cholera-roadmap-research-agenda/">https://www.gtfcc.org/cholera-roadmap-research-agenda/</a>). To achieve this, the GTFCC has laid out a comprehensive and multisectoral intervention plan which focuses on measures aimed at strengthening the healthcare system in affected countries, improving WASH infrastructure, improving cholera surveillance and reporting, extending access to oral cholera vaccinations (OCVs), and promoting preventive behaviors in communities at risk. Developing tools that make it possible to understand how, where, and when these interventions should be implemented to maximize their impact should be the focus of the Cholera Response Simulator pilot.</p>
 
 </div>
@@ -13127,9 +13127,9 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Predictive models that forecast the dynamics of cholera based on epidemiological parameters (e.g., reproduction rate, death rate, and recovery rates) and environmental factors (e.g, rainfalls and temperatures) have been developed over the past years. otable example are the Cholera Risk Model (CRM) developed by a team of experts from University of Florida, University of Maryland, and the UK MET Office (see: <a href="https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/business/international/summary_of_the_yemen_case_study.pdf">https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/business/international/summary_of_the_yemen_case_study.pdf</a>), and the ESA cholera risk model (see: <a href="https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Cholera_outbreaks_predicted_using_climate_data_and_AI">https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Cholera_outbreaks_predicted_using_climate_data_and_AI</a>, <a href="https://www.mdpi.com/1660-4601/17/24/9378">https://www.mdpi.com/1660-4601/17/24/9378</a>). However, these models are only based on environmental factors, and do not allow end users to simulate response strategies, nor do they explain the decoupling between incidence and environmental factors observed after 2017 (probably as an effect of interventions). <br></p>
 <p><img src="figures/yemen_cases+env.png" style="width: 80%; height: 80%"></p>
-<p><em>Figure 3: Normalized number of cases for 2017-2020 in Yemen (country-wide) plotted against rainfall and temperature.</em></p>
+<p><center><em>Figure 3: Normalized number of cases for 2017-2020 in Yemen (country-wide) plotted against rainfall and temperature.</em><center></p>
 <p><img src="figures/yemen_cases+env_top4gvt.png" style="width: 80%; height: 80%"></p>
-<p><em>Figure 4: Normalized number of cases in four governorate with high cholera incidence, plotted against rainfall and temperature (these latter at country level).</em></p>
+<p><center><em>Figure 4: Normalized number of cases in four governorate with high cholera incidence, plotted against rainfall and temperature (these latter at country level).</em><center></p>
 <p>The system dynamics Cholera Response Simulator will build on the epidemiological and environmental components of these models, but its goal will be distinct from theirs. Emphasis should in fact be placed on testing the effectiveness of different implementations of the cholera response plans outlined in the GTFCC’s Roadmap in limiting the spread of the disease and associated mortality. The output will not be a cholera forecasting tool, but <strong>a simulation tool that can provide practical guidance on how and when different types of interventions should be implemented for maximal impact</strong>.</p>
 
 </div>
@@ -13162,10 +13162,18 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The pilot should unfold along the following steps:</p>
+<p>The pilot should unfold along the following steps (which reflect steps outlined in the Data Fellowship final report):</p>
 <ul>
-<li><strong>Refining model scope and boundaries</strong>: first, once core partners and stakeholders have been identified, the goals and boundaries of the model should be refined in collaboration with all relevant actors (e.g., through a combination of iterative cycles of interviews and joint events);</li>
-<li><strong>Data collection</strong>: secondly, the PA Team should gather an initial batch of data to validate the first model prototypes. For this step, if preprocessing of publicly available resources is not sufficient, it may be necessary to request access to more detailed data from WASH clusters or other agencies responsible for data management. 
+<li><strong>Refining model goals and outputs</strong>: once core partners and stakeholders have been identified, the goals of the model and its outputs (i.e., is it overall number of cases that should be predicted and minimized? Which target areas should the pilot focus on?) should be refined in collaboration with all relevant actors (e.g., through a combination of iterative cycles of interviews and joint events);</li>
+<li><strong>Defining responses to be tested</strong>: modelers and the PA Team should identify a set of responses (e.g., OCVs, WASH interventions, etc.) the model should be able to simulate (and how). For this step, it is necessary to interact with actors involved in coordinating response in 2018 (e.g., UNICEF + potentially other WASH actors). It would be desirable to define a number of alternative response plans involving combinations of those interventions and delays, which the model could simulate and whose effectiveness can be assessed based on model outputs;</li>
+<li><strong>Refining model boundaries</strong>: modelers and other stakeholders should interact to define which variables should (and can) be included in the model (literature review, workshops, and iterative prototyping are the tools for this step);</li>
+<li><strong>Formulating a causal loop diagram and a stock and flow diagram</strong>: this knowledge should be systematized by modelers into a causal loop diagram and a stock and flow diagram (first prototype). The prototype should be validated against historical data. We suggest to focus on validating whether the model prototype is able to:<ul>
+<li>Reproduce trends for cholera infections and deaths in 2017;</li>
+<li>Evaluate the effect of 2018 OCV and WASH interventions on cholera incidence;
+The resulting model should be presented to partners and stakeholders, and collaboratively and iteratively refined based on partners’ expertise, until actors converge on a shared dynamic hypothesis.</li>
+</ul>
+</li>
+<li><strong>Identify data needs and gather data</strong>: the PA Team should gather an initial batch of data to validate the first model prototypes. For this step, if preprocessing of publicly available resources is not sufficient, it may be necessary to request access to more detailed data from WASH clusters or other agencies responsible for data management. 
 For a pilot centered on Yemen, initial validation could focus on the 2017 and 2018 outbreaks, and data should include:<ul>
 <li><em>Monthly estimates of cholera cases and deaths</em> for 2017-2018 at Governorate level;</li>
 <li>Data on <em>WASH indicators and interventions</em> for 2017-2018, e.g., data on:<ul>
@@ -13179,21 +13187,13 @@ For a pilot centered on Yemen, initial validation could focus on the 2017 and 20
 <li>Number of OCVs administered; </li>
 </ul>
 </li>
-<li>Data on <em>cholera-related responses</em> implemented in 2018 (which are hypothesized to have determined the lower incidence observed in 2018 compared to 2017).</li>
+<li>Data on <em>cholera-related responses</em> implemented in 2018 (which are hypothesized to have determined the lower incidence observed in 2018 compared to 2017);</li>
 </ul>
 </li>
-<li><strong>Model prototyping</strong>: in collaboration with the system dynamics experts, the PA Team should develop an initial model prototype. This step will result in an initial dynamic hypothesis (e.g., a representation of  how key variables influencing the incidence of cholera interact, and at what delays). </li>
-<li><strong>Prototype validation</strong>: The prototype should be validated against historical data. We suggest to focus on validating whether the model prototype is able to:<ul>
-<li>Reproduce trends for cholera infections and deaths in 2017;</li>
-<li>Evaluate the effect of 2018 OCV and WASH interventions on cholera incidence;</li>
-</ul>
-</li>
-<li><strong>Model refinement</strong>: the resulting model should be presented to partners and stakeholders, and collaboratively and iteratively refined based on partners’ expertise, until actors converge on a shared dynamic hypothesis.</li>
-<li><strong>(optional) Further data collection</strong>: the team may decide to try to gain access to more data for more accurate model estimation and final validation (e.g., additional variables, or data at better spatial or temporal granularity);</li>
-<li><strong>(optional) Validation with enhanced data</strong>: The model should then be validated again, and, if needed, iteratively refined to improve performance performance. To make sure that iterative adjustments do not result in overfitting, the final validation should be conducted against an independent, unseen dataset (either from the same target areas, or from different governorates or countries if generalizability checks are desired).</li>
-<li><strong>User validation</strong>: stakeholders involved in cholera response planning should be interviewed to evaluate whether the model affords practical deployment for decision making;</li>
 <li><strong>Independent panel validation</strong>: the model should then be evaluated by an independent expert panel (along the guidelines provided by the Centre’s Peer Review Framework);</li>
-<li><strong>Development of user interfaces</strong>: model deployment can be facilitated by developing intuitive user interfaces (e.g., in Stella, or, if deemed more suitable, in other frameworks);</li>
+<li><strong>(optional) Further data collection</strong>: the team may decide to try to gain access to more data for more accurate model estimation and final validation (e.g., additional variables, or data at better spatial or temporal granularity);</li>
+<li><strong>Quantitative estimation and validation</strong>: The model should then be validated quantitatively, and, if needed, iteratively refined to improve performance performance. To make sure that iterative adjustments do not result in overfitting, the final validation should be conducted against an independent, unseen dataset (either from the same target areas, or from different governorates or countries for generalizability);</li>
+<li><strong>Development of user interfaces</strong>: model deployment can be facilitated by developing intuitive user interfaces (e.g., in Stella, or, if deemed more suitable, in other frameworks). Stakeholders involved in cholera response planning should be involved in providing feedback to this step, to evaluate whether the model and interfaces can be practically deployment for decision making;</li>
 <li><strong>User training and deployment</strong>: at this stage, the model is ready to be deployed. Documentation for model use should be developed, and the model should be presented to end users, highlighting both affordances and limitations.</li>
 </ul>
 
@@ -13235,7 +13235,7 @@ For a pilot centered on Yemen, initial validation could focus on the 2017 and 20
 <p>One potentially useful resource for data is <a href="https://app.powerbi.com/view?r=eyJrIjoiNTY3YmU0NTItMmFjYy00OTUxLWI2NzEtOTU5N2Q0MDBjMjE5IiwidCI6ImI3ZTNlYmJjLTE2ZTctNGVmMi05NmE5LTVkODc4ZDg3MDM5ZCIsImMiOjl9">this dashboard</a> (suggested by ACAPS).</p>
 <p>Establishing contact with actors in the field (OCHA Field Staff, UNICEF Yemen staff, ACAPS, REACH) could be useful to gain access to more resources. Gaining access to data on interventions (e.g., vaccinations) is especially important. Attempts to use IATI proxies for interventions were not deemed very promising (see Figure 5). Descriptions are often not specific enough to track the location and exact type of intervention. Vaccine-related data in the plot below, for example, are probably not specific to cholera, and they only cover very few activities.</p>
 <p><img src="figures/IATI.png" style="width: 80%; height: 80%"></p>
-<p><em>Figure 5: Funding for activities labeled as WASH, for activities mentioning "cholera" in their description, and for activities mentioning "cholera" and "vaccin</em>" between 2017 and 2018. Data were extracted from <a href="https://d-portal.org/ctrack.html#view=search">https://d-portal.org/ctrack.html#view=search</a>, filtering by country=Yemen and year range 2017-2018.*</p>
+<p><center><em>Figure 5: Funding for activities labeled as WASH, for activities mentioning "cholera" in their description, and for activities mentioning "cholera" and "vaccin</em>" between 2017 and 2018. Data were extracted from <a href="https://d-portal.org/ctrack.html#view=search">https://d-portal.org/ctrack.html#view=search</a>, filtering by country=Yemen and year range 2017-2018.*<center></p>
 <p>Depending on the final structure of the model, data on other variables will be required to develop and validate the model (e.g., governorate-level population and IDP estimates, information on armed conflict events, information on humanitarian access per governorate, data on health facilities and infrastructure). For those of these variables which are not core components of the model, lower-resolution estimates from publicly available datasets or imputed data may be suitable proxies.</p>
 
 </div>
