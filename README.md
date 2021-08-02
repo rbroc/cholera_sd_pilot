@@ -1,6 +1,6 @@
 ## Cholera Response Simulator resources
 This repository contains some materials relevant for the Cholera Response Simulator pilot recommended as a result of research conducted during the 2021 Predictive Analytics Data Fellowship.
-Recommendations are outlined in the **Pilot Recommendation** files. There is also some code and data from preliminary data exploration and analysis conducted during the fellowship. Very much work in progress, but hope this could be useful as a starting point 😉
+Recommendations are outlined in the **Pilot Recommendation** files. There is also some code and data from preliminary data exploration and analysis conducted during the fellowship. Very much work in progress, but hope this could be useful as a starting point.
 
 Contents:
 - ```Pilot Recommendations.ipynb```: 📖 report on recommendations for a Cholera Response Simulator pilot using System Dynamics;
