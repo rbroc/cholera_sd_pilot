@@ -11,4 +11,3 @@ This repo contains:
 - ```explore_acaps_ds.ipynb```: Some preliminary exploration of the ACAPS dataset, including both viz on number of cases in Yemen between 2017 and 2020 and some analysis to get a sense of the predictive accuracy of different types of non-dynamic multivariate models in predicting cholera cases and deaths. Code is not tidy at all, but this was just a "proof of concept" to concretely see how poorly non-dynamic models perform, given the data that are currently available;
 - ```viz_cases+env.ipynb```: Some plotting of cases against rainfall and temperature data, showing clear decoupling between environmental variables and cases after 2017. Take-home message: interventions matter, and transition to endemic transmission modalities also matter: we need to add these components to CRM and ESA-like models;
 - ```viz_IATI.ipynb```: data on funding for WASH activities or activities mentioning cholera in Yemen for 2017-2018
-
